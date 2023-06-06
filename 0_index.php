@@ -7,6 +7,7 @@
 <p>Hola, hoy es </p>
 
 <!-- aqui empieza el código php -->
+<!-- Prueba --> 
 <?php
 echo date('h:i:s A');
 ?>
