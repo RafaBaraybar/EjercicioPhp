@@ -7,7 +7,7 @@
 <p>Hola, hoy es </p>
 
 <!-- aqui empieza el código php -->
-<!-- Prueba --> 
+<!-- Prueba estoy aprendiendo a usar github --> 
 <?php
 echo date('h:i:s A');
 ?>
