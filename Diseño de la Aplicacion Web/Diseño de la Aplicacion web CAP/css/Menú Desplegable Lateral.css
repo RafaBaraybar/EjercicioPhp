@@ -1,0 +1,98 @@
+html, body{
+    height: 135%;
+}
+body {
+    background-image: url("../imagen/imagen.jpg");
+    height: 100vh; /* Cambié la altura a 100vh para ocupar toda la altura de la pantalla */
+    background-repeat: no-repeat;
+    background-position: right bottom; /* Posición de la imagen más abajo */
+    background-size: 1110px 360px;
+    background-attachment: fixed;
+}
+/* Estilo para el contenido (texto) */
+.content {
+    padding: 20px; /* Espacio interior para el contenido */
+    text-align: center; /* Alinea el texto al centro */
+    position: relative;
+    top: 50%; /* Mueve el contenido hacia arriba un 50% de la altura del contenedor */
+    transform: translateY(-50%); /* Corrige la posición vertical */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para hacer que el texto sea legible */
+}
+
+
+
+/* Estilos para el menú desplegable lateral */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #4284FF;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+.sidenav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    background-color: #4284FF;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos para el menú horizontal */
+.horizontal-menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.menu-button {
+    background-color: #4284FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.menu-button:hover {
+    background-color: #4284FF;
+}
+
+/* Estilos generales */
+.main {
+    margin-left: 20px; /* Agregar un margen para dejar espacio al menú desplegable */
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    .sidenav {
+        width: 100%;
+        left: 0;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+}

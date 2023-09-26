@@ -1,0 +1,81 @@
+body {
+    background: url("imagenes\Logo1.png");
+}
+
+
+
+/* Estilos para el menú desplegable lateral */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #00ffbb87;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+.sidenav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    background-color: #00ffbb87;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos para el menú horizontal */
+.horizontal-menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.menu-button {
+    background-color: #00b3ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.menu-button:hover {
+    background-color: #00b3ff;
+}
+
+/* Estilos generales */
+.main {
+    margin-left: 20px; /* Agregar un margen para dejar espacio al menú desplegable */
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    .sidenav {
+        width: 100%;
+        left: 0;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+}

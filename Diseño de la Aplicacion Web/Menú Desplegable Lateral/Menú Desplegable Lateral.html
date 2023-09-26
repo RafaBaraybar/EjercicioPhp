@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable Lateral</title>
+    <link rel="stylesheet" href="css/stylo.css">
+    <style>
+        .horizontal-menu {
+            float: right; /* Añadimos esta línea para alinear a la derecha */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <h2>Mi Menú</h2>
+        <li><a class="link" href="Formulario de Registro de Incidentes CAP.html">Formulario de Registro de Incidentes CAP.html</a></p>
+        <a href="#">Acerca de</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <div class="horizontal-menu">
+        <button class="menu-button">Perfil</button>
+        <button class="menu-button">Configuración</button>
+        <button class="menu-button">Cerrar Sesión</button>  
+    </div>
+    
+
+    <div class="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menú</span>
+        <h1>Contenido Principal</h1>
+        <!-- Tu contenido principal va aquí -->
+        <p>Consejo Asesor Pedagógico (CAP) es un órgano que se renueva anualmente y que está constituído por tres docentes, uno elegido por los estudiantes, otro por el cuerpo de profesores y otro por el Director de la UTU Arrayanes.</p>
+
+        <p>El Profesor Consejero es elegido por los alumnos de cada grupo en forma anual. Según el Reglamento de Evaluación y Pasaje de Grado, "la función del Profesor Consejero será la de un orientador del grupo. Prevendrá sus faltas, estimulará su desarrollo y maduración, y promoverá las acciones positivas individuales y grupales. Será el nexo entre el grupo a su cargo, el Adscripto y el Equipo de Dirección. Oficiará como asesor ante el Consejo Asesor Pedagógico en los casos que corresponda.</p>
+    </div>
+
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>

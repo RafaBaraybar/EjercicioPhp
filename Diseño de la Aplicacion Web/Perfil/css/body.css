@@ -1,0 +1,32 @@
+body {
+    background-color: royalblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.perfil {
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 400px;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+}
+
+#perfil-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#editar-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#editar-btn:hover {
+    background-color: #0056b3;
+}

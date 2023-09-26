@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable Lateral</title>
+    <link rel="stylesheet" href="css/Menú Desplegable Lateral.css">
+    <style>
+        .horizontal-menu {
+            float: right; /* Añadimos esta línea para alinear a la derecha */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <h2>Mi Menú</h2>
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <img src="imagen/Arrayanes.png" alt="Logo de Mi Menú">
+        <button class="link" onclick="window.location.href='Registro de Incidentes.html'">Registro de Incidentes</button>
+        <button class="link" onclick="window.location.href='Informe de Incidentes.html'">Informe de Incidentes</button>
+    
+    
+        
+    </div>
+
+    <div class="horizontal-menu">
+        <button class="link" onclick="window.location.href='Perfil.html'">Perfil</button>
+        <button class="link" onclick="window.location.href='Configuración de Usuario.html'">Configuración de Usuario</button>
+        <button class="link" onclick="window.location.href='Salir o Eliminar.html'">Salir o Eliminar</button>
+
+    </div>
+    
+
+    <div class="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menú</span>
+        <h1>Contenido Principal</h1>
+        <!-- Tu contenido principal va aquí -->
+        <p>Consejo Asesor Pedagógico (CAP) es un órgano que se renueva anualmente y que está constituído por tres docentes, uno elegido por los estudiantes, otro por el cuerpo de profesores y otro por el Director de la UTU Arrayanes.</p>
+
+        <p>El Profesor Consejero es elegido por los alumnos de cada grupo en forma anual. Según el Reglamento de Evaluación y Pasaje de Grado, "la función del Profesor Consejero será la de un orientador del grupo. Prevendrá sus faltas, estimulará su desarrollo y maduración, y promoverá las acciones positivas individuales y grupales. Será el nexo entre el grupo a su cargo, el Adscripto y el Equipo de Dirección. Oficiará como asesor ante el Consejo Asesor Pedagógico en los casos que corresponda.</p>
+    </div>
+
+    <script src="javascript/Menú Desplegable Lateral.js"></script>
+</body>
+</html>
